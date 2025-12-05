@@ -40,5 +40,5 @@ jobs:
           ssh -o StrictHostKeyChecking=no -i private_key ${USER_NAME}@${HOSTNAME} '
           docker pull 201076423/rproject:latest
           docker run -p 8080:8080 -d 201076423/rproject:latest
-          echo "all good!"
+          echo "all good"
           '
